@@ -38,7 +38,7 @@ bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.reply_to(message, "Main hamesha active hoon!")
+    bot.reply_to(message, "Active!")
 
 # 3. Dono ko saath chalana
 if __name__ == "__main__":
